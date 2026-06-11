@@ -9,9 +9,8 @@ description = "A free, hierarchical, self-checking geocode (CC0)"
 readme = "README.md"
 license = {text = "CC0-1.0"}
 authors = [{name = "Magnus Strömberg", email = "github@magnus.tech"}]
-# Add once published, e.g.:
-# [project.urls]
-# Homepage = "https://github.com/<user>/ordloc"
+[project.urls]
+Homepage = "https://github.com/mbswe/ordloc"
 requires-python = ">=3.8"
 dependencies = ["s2sphere>=0.2.5"]
 

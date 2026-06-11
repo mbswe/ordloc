@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ordloc"
+version = "0.2.0"
+description = "A free, hierarchical, self-checking geocode (CC0)"
+readme = "README.md"
+license = "CC0-1.0"
+authors = [{name = "Magnus Strömberg", email = "github@magnus.tech"}]
+# Add once published, e.g.:
+# [project.urls]
+# Homepage = "https://github.com/<user>/ordloc"
+requires-python = ">=3.8"
+dependencies = ["s2sphere>=0.2.5"]
+
+[project.scripts]
+ordloc = "ordloc:cli"
+
+[tool.setuptools]
+packages = ["ordloc"]
+
+[tool.setuptools.package-data]
+ordloc = ["wordlist_2048.txt", "wordlist_4096.txt"]

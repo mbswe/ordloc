@@ -1,0 +1,14 @@
+ordloc — CC0 1.0 Universal Public Domain Dedication
+
+To the extent possible under law, Magnus Strömberg, the author of ordloc, has waived all
+copyright and related or neighboring rights to the ordloc specification
+and reference implementation. This work is published from: worldwide.
+
+Full legal text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+Third-party materials retain their own licenses:
+  - wordlist_2048.txt: BIP-39 English wordlist, MIT License,
+    https://github.com/bitcoin/bips/tree/master/bip-0039
+  - wordlist_4096.txt: derived in part from the EFF Large Wordlist
+    (CC-BY 3.0, https://www.eff.org/dice) and google-10000-english
+    (https://github.com/first20hours/google-10000-english).

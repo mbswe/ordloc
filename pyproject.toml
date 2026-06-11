@@ -14,7 +14,7 @@ dependencies = ["s2sphere>=0.2.5"]
 
 [project.urls]
 Homepage = "https://github.com/mbswe/ordloc"
-Repository = "https://github.com/your-org/ordloc"
+Repository = "https://github.com/mbswe/ordloc"
 
 [project.scripts]
 ordloc = "ordloc:cli"

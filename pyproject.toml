@@ -7,7 +7,7 @@ name = "ordloc"
 version = "0.2.0"
 description = "A free, hierarchical, self-checking geocode (CC0)"
 readme = "README.md"
-license = "CC0-1.0"
+license = {text = "CC0-1.0"}
 authors = [{name = "Magnus Strömberg", email = "github@magnus.tech"}]
 # Add once published, e.g.:
 # [project.urls]
